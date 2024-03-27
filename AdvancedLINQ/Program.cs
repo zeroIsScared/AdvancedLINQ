@@ -93,11 +93,6 @@ Print(except);
 
 Console.WriteLine();
 
-//LINQ Conversion methods
-
-
-
-
 //LINQ Agregation methods
 var count = list.Count();
 Console.WriteLine(count);
