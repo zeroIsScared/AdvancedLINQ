@@ -4,8 +4,6 @@ using AdvancedLINQ;
 using System.Net;
 using System.Threading.Channels;
 
-
-
 //Join
 
 var users = ResourceManager.LoadUserData();
@@ -74,7 +72,7 @@ void PrintInt(List<int> list)
 List<string> list = new List<string> { "1", "2", "3", "4", "5", "Marry" };
 List<string> list1 = new List<string> {"Marry", "Jhoanne", "Katy", "Ashan"};
 
-/*var concat = list.Concat(list1).ToList();
+var concat = list.Concat(list1).ToList();
 Print(concat);
 
 Console.WriteLine();
@@ -93,7 +91,7 @@ var except = list.Except(list1).ToList();
 Print(except);
 
 
-Console.WriteLine();*/
+Console.WriteLine();
 
 //LINQ Conversion methods
 
@@ -101,7 +99,7 @@ Console.WriteLine();*/
 
 
 //LINQ Agregation methods
-/*var count = list.Count();
+var count = list.Count();
 Console.WriteLine(count);
 
 Console.WriteLine();
@@ -124,7 +122,7 @@ Console.WriteLine();
 var averagePoints = users.Average(x => x.Points);
 Console.WriteLine(averagePoints);
 
-Console.WriteLine();*/
+Console.WriteLine();
 
 
 //LINQ Quantifiers methods
